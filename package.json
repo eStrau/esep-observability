@@ -1,0 +1,24 @@
+{
+  "name": "esep-observability",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": " https://github.com/eStrau/esep-observability.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/instrumentation-http": "^0.200.0",
+    "@opentelemetry/instrumentation-mongodb": "^0.53.0",
+    "@opentelemetry/sdk-trace-node": "^2.0.0",
+    "express": "^5.1.0",
+    "mongodb": "^4.3.1",
+    "opentelemetry-instrumentation-express": "^0.41.0"
+  }
+}
