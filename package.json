@@ -14,8 +14,13 @@
   "description": "",
   "dependencies": {
     "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/auto-instrumentations-node": "^0.58.0",
+    "@opentelemetry/exporter-jaeger": "^2.0.0",
+    "@opentelemetry/exporter-metrics-otlp-proto": "^0.200.0",
+    "@opentelemetry/exporter-trace-otlp-proto": "^0.200.0",
     "@opentelemetry/instrumentation-http": "^0.200.0",
     "@opentelemetry/instrumentation-mongodb": "^0.53.0",
+    "@opentelemetry/sdk-node": "^0.200.0",
     "@opentelemetry/sdk-trace-node": "^2.0.0",
     "express": "^5.1.0",
     "mongodb": "^4.3.1",
